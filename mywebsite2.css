@@ -1,0 +1,23 @@
+.mainContent {
+    background-color: gray;
+    font-size: 70px ;
+    font-weight: underline;
+    text-align: center;
+    animation-name: translate;
+    animation-duration: 10s;
+}
+
+@keyframes translate {
+    from {
+        background-color: grey   
+    }
+    to {
+        background-color: black;
+    }
+}
+h2 {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0;
+}
